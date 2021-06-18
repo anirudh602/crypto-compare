@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:wght@200&display=swap');
+.container-sm{
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    justify-content: center ;
+    
+   
+   
+}
+.imggg{
+    height: 64px;
+    width: 64px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+#hhh{
+    font-family: 'Open Sans';
+    padding: 5px;
+    margin : 2px;
+}
+
+.ppp{
+    font-family: 'Nunito Sans';
+    text-align: left;
+    justify-content: left;
+}
+
+.fll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    
+    margin: auto;
+  
+   
+
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green
+}
+
+
+.boxy{
+    
+    margin-right: auto;
+    width: 100px;
+   
+    
+    
+}
+
+.boxyy{
+    width: 100px;
+    padding: 10px;
+    margin-left: -20px;
+}
+
+
+
+a{
+    color: white;
+}
+
+@media (max-width: 768px){
+    .boxyy{
+        display: none;
+    }
+    .fll{
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+    .container-sm{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+        
+    }
+    .boxy{
+        height: 0px;
+        width: 0px;
+        display: none;
+        margin: 0px;
+    }
+    .imggg{
+        height: 0px;
+        width: 0px;
+        display: none;
+    }
+
+    .fll{
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+}
+

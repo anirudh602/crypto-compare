@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+#coin-image{
+    
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px;
+    
+}
+
+.boxxx{
+    margin: 20px auto;
+    
+    border-radius:15px;
+    padding: 10px
+}
+
+#heads{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 4px;
+    color: white;
+}
+
+#ppp{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
