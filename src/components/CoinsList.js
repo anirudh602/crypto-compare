@@ -10,13 +10,13 @@ const CoinsList = (props) => {
 
     return (
        
-        <ul style = {{margin:"auto"}}>
+        <div class = "list-group">
             {props.list.map(l => {
                 return <CoinsItem key = {l.id} obj = {l} coin = {coind}/>
             })}
 
             
-        </ul>
+        </div>
     
     )
 }

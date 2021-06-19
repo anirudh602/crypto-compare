@@ -55,7 +55,7 @@ const Input = (props) => {
             ))}
           </datalist>
           <div className = " input-group-append">
-          <button type="submit" className="btn btn-primary" style = {{backgroundColor : "orange" , color: "white"}}>
+          <button type="submit" className="btn btn-primary" style = {{backgroundColor : "orange" , color: "white" , borderColor :"rgba(76, 175, 80, 0)"}}>
             Start
           </button>
           </div>

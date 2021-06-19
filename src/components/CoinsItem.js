@@ -16,7 +16,7 @@ const CoinsItem = (props) => {
     console.log("width" , width);
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  } , [])
+  } )
   
 
   function convert(labelValue) {
@@ -56,7 +56,7 @@ const CoinsItem = (props) => {
   console.log('u' , upside)
   console.log("c" , colo);
   return (
-    <div className="container-sm">
+    <div className={width <= 900 ? "container-xl" : "container-sm"}>
       <div
         className="card mb-1 mx-4 fll"
         style={{  marginTop: "20px" }}

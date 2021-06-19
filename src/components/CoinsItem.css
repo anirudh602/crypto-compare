@@ -4,8 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:wght@200&display=swap');
 .container-sm{
     margin: auto;
-    width: 85%;
+    width: 72%;
     align-items: center;
+    align-content: center;
     justify-content: center ;
     
    
@@ -34,7 +35,7 @@
 .fll{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     word-wrap: break-word;
     
@@ -73,20 +74,8 @@ a{
     color: white;
 }
 
-@media (max-width: 768px){
-    .boxyy{
-        display: none;
-    }
-    .fll{
-        flex-direction: column;
-        justify-content: space-evenly;
-        text-align: left;
-    }
 
-}
-
-
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .container-sm{
         align-items: center;
         justify-content: center;
@@ -94,7 +83,20 @@ a{
         align-self: center;
         
     }
+    .container-xl{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+        
+    }
     .boxy{
+        height: 0px;
+        width: 0px;
+        display: none;
+        margin: 0px;
+    }
+    .boxyy{
         height: 0px;
         width: 0px;
         display: none;
@@ -108,8 +110,10 @@ a{
 
     .fll{
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         text-align: center;
+        align-items: center;
+
     }
 
 }

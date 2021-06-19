@@ -41,12 +41,13 @@ const App = () => {
       {!list && <LoadingSpinner asOverlay />}
       {list && <Input onSubmit = {getCoin} list = {list}/>}
       
-      <div className = "container-sm" ><hr></hr>
+      <div className = "container-l">
       {coin && list &&  <CoinInfo coin = {coin} list = {list}/>}
       {coin && list && <MidHead coin = {coin}/>}
       {coin && list && <CoinsList list = {list} coin = {coin}/>}
       </div>
-    </div>
+      </div>
+   
   )
 }
 
